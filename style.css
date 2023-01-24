@@ -1,1 +1,23 @@
-/*for styling*/
+body{
+    background-color: white;
+    padding:0;
+    margin:0;
+    text-align:center;
+}
+.header-container {
+    display: flex;
+    background-color: peachpuff;
+    text-align: left;
+  }
+
+  .section-container {
+    display: flex;
+    background-color: peachpuff;
+    text-align: left;
+  }
+
+  .footer-container {
+    display: flex;
+    background-color: peachpuff;
+    text-align: left;
+  }
