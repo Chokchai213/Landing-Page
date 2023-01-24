@@ -1,1 +1,23 @@
-/*for styling*/
+.flex-container {
+    display: flex;
+    background-color: peachpuff;
+    border: 1px solid green;
+    flex-basis : 200px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .flex-container .home{
+    flex: 1 1 0;
+    text-align: center;
+    border:1px solid green;
+  }
+  .flex-container .signup{
+    flex: 1 1 0;
+    text-align: center;
+    border:1px solid green;
+  }
+  .flex-container .login{
+    flex: 1 1 0;
+    text-align: center;
+    border:1px solid green;
+  }
