@@ -1,9 +1,9 @@
 body {
-    background-color: white;
+    background-color: burlywood;
     padding: 0;
     margin: 0;
     text-align: center;
-    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-family:'Roboto',arial;
 }
 
 .header-container {
@@ -22,7 +22,7 @@ body {
 
 .header-container .navbar .logo img {
     width: 128px;
-    height: 115px;
+    height: 120px;
 }
 .navigate{
     display:flex;
@@ -42,7 +42,7 @@ body {
     color: firebrick;
     align-items: center;
     justify-content: center;
-    padding:90px;
+    padding: 45px;
 }
 .header-box a{
     text-decoration: none;
@@ -87,12 +87,78 @@ body {
 
 .section-container {
     display: flex;
-    background-color: white;
-    text-align: left;
+    background-color: antiquewhite;
+    justify-content: center;
+    flex-direction: column;
 }
-
+.section-container .sectext1{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Roboto',arial;
+    padding: 10px;
+}
+.section-container iframe{
+    border: 4px solid brown;
+    border-radius: 15px;
+}
+.section-container .arti1{
+    background-color: antiquewhite;
+    color: firebrick;
+    padding: 0px 400px 0px 400px;
+    font-family: 'Roboto',arial;
+}
+.arti1 div{
+    font-weight:700;
+    text-align: center;
+    font-size: 24px;
+}
+.arti1 p{
+    text-align:right;
+    font-size:18px;
+    font-weight: 400;
+    margin-right: 28px;
+}
+.section-container .signupbanner{
+    background-color: brown;
+    margin: 10px 500px;
+    padding: 10px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.signupbanner .signtext{
+    margin-right: auto;
+    color: peachpuff;
+    font-family: 'Roboto',arial;
+}
+.signtext h3{
+    font-size: 18px;
+    font-weight:700;
+}.signtext p{
+    font-size: 12px;
+}.signbuttonalt .signbuttonalt{
+    margin-left: auto;
+}
+.signbuttonalt button{
+    font-weight: 700;
+    border: none;
+    background: goldenrod;
+    padding: 5px 25px;
+    border-radius: 8px;
+    font-size: 15px;
+    color: firebrick;
+    font-family: 'Roboto',arial;
+    text-decoration: none;
+}
 .footer-container {
     display: flex;
-    background-color: red;
-    text-align: left;
+    background-color: burlywood;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container .cprodin{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600;
 }
