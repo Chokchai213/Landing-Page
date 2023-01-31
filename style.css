@@ -8,27 +8,46 @@ body {
 
 .header-container {
     display: flex;
+    flex-direction: column;
     background-color: peachpuff;
     height: auto;
 }
 
 .header-container .navbar {
+    background-color: burlywood;
     display: flex;
-    padding: auto;
+    padding: 20px 0px 20px 100px;
+    align-items: center;
 }
 
 .header-container .navbar .logo img {
-    width: 128px;
-    height: 96px;
-    margin-left: auto;
+    width: 210px;
+    height: 192px;
 }
 .navigate{
     display:flex;
-    margin: right;
-    padding: auto;
+    margin: auto;
+    padding: 0px 100px 0px 0px;
 }
-
-
+.navbar a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    padding: 15px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header-box{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding:90px;
+}
+.header-imgbox{
+    display: flex;
+    width: 600px;;
+    height: 590px;
+}
 
 
 
