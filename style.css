@@ -21,34 +21,64 @@ body {
 }
 
 .header-container .navbar .logo img {
-    width: 210px;
-    height: 192px;
+    width: 128px;
+    height: 115px;
 }
 .navigate{
     display:flex;
-    margin: auto;
+    margin-left: auto;
     padding: 0px 100px 0px 0px;
 }
 .navbar a{
-    font-weight: bold;
+    font-weight: 700;
     text-decoration: none;
     color: black;
-    font-size: 18px;
-    padding: 15px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    padding: 18px;
+    font-family:'Roboto',arial;
 }
 .header-box{
     display: flex;
-    align-items:center;
+    color: firebrick;
+    align-items: center;
     justify-content: center;
     padding:90px;
 }
-.header-imgbox{
-    display: flex;
-    width: 600px;;
-    height: 590px;
+.header-box a{
+    text-decoration: none;
 }
-
+.header-box .textbox1{
+    flex-basis: 750px;
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    font-size: 28px;
+    font-family: 'Roboto',arial;
+    margin-bottom: 100px;
+    margin-right: 25px;
+}
+.header-box button{
+    display: block;
+    text-align: center;
+    width: 250px;
+    border: none;
+    background: goldenrod;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 32px;
+    color: firebrick;
+    font-family: 'Roboto',arial;
+    text-decoration: none;
+    font-weight: 800;
+}
+.header-box .imgbox{
+    width: 20%;
+    height: 90%;
+}
+.imgbox img{
+    width: 500px;
+    height: 500px;
+}
 
 
 
